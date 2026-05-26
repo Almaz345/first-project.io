@@ -878,6 +878,7 @@ body {
     #body {
         overflow: hidden;
         position: relative;
+        top: 300px;
     }
     #header-content {
         top: 0;
