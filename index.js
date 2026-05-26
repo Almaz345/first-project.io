@@ -61,9 +61,6 @@ const relaw = document.querySelector(".relaw");
 
 posters.forEach(posters => {
     poster_content.forEach(poster_content => {
-    if(poster_content.dataset.set == "noinfo") {
-            poster_content.style.height = "80%";
-        }
         if(posters.dataset.set == "yesinfo 1") {
             setTimeout(() => {
                 posters.style.position = "relative";
